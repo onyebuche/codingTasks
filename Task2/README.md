@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+**Task 2: Dynamic Web Page with Express and React**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Table of Contents**
+Table of Contents
+Description
+Installation
+Usage
+Credits
 
-## Available Scripts
+**Description**
+This coding task involves creating a dynamic web page using a backend built with Express.js and a frontend built with React.js. The goal of this task is to demonstrate how to create an API endpoint in Express and fetch data from it using a React frontend.
 
-In the project directory, you can run:
+Understanding the integration between a backend and a frontend is crucial for modern web development. This task helps in learning how to create RESTful APIs and consume them in a React application, which is a common requirement in full-stack development.
 
-### `npm start`
+**Installation**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Backend**
+Clone the repository:
+git clone https://github.com/onyebuche/codingTasks/Task2.git
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Navigate to the backend directory:
+cd codingTasks/Task2/backend
+Install the required dependencies:
+npm install
 
-### `npm test`
+Start the backend server:
+npm start
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Frontend**
+Navigate to the frontend directory:
+cd ../frontend
 
-### `npm run build`
+Install the required dependencies:
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Start the frontend server:
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Usage**
+Once both servers are running, open your web browser and navigate to http://localhost:3000. You should see the custom message fetched from the backend displayed on the webpage.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Example messages**
+Backend
+Endpoint: /api/message
+Response:
+{
+  "message": "Hello from the back end!"
+}
 
-### `npm run eject`
+Frontend
+The frontend React application fetches the message from the backend and displays it.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Steps to Use**
+Run the backend server:
+cd codingTasks/Task2/backend
+npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Run the frontend server:
+cd ../frontend
+npm start
+Open the web page: Navigate to http://localhost:3000 in your web browser to see the custom message.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Credits**
+This project was developed by Eugene Uche. The task demonstrates the integration of an Express.js backend with a React.js frontend, showcasing full-stack development practices.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+For more information, visit the repository.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+By following these steps and understanding the provided information, you should be able to install, run, and use the dynamic web page project effectively. This README file serves as a comprehensive guide to ensure a smooth experience for all users.
